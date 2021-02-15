@@ -1,16 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color: black;
+    background-color: #121116;
+    font-family: 'Open Sans';
 }
 
-.conteiner {
-    width: 1200px;
+ .container {
+    max-width: 1200px;
     height: 100vh;
-    border: brown 1px dashed;
     margin: auto;
-    
+    text-align: center;
+    } 
+
+/* Style for "Logo" */
+.logo {
+    margin: 120px auto 0 auto;
+    width: 112px;
+    height: 36px;
+}
+
+/* Style for "Social Par" */
+.socialPart {
+    width: 230px;
+    height: 73px;
+    margin: 51px auto 0 auto;
+    text-align: center;
+    }
+
+.we-are-social {
+    /* Style for "WE ARE SOC" */
+    margin: 120px auto 0 auto;margin-top: 51px;
+    color: #ffffff;
+    font-family: "Open Sans";font-size: 20px;
+    font-weight: 400;
+    font-style: normal;letter-spacing: normal;line-height: normal;
+    text-align: center;text-transform: uppercase;
+} 
+
+/* Text style for "WE ARE SOC" */
+.we-are-social p {
+    font-style: normal;letter-spacing: 1px;
+    line-height: normal;
+}
+
+.separator {
+    /* Style for "Separator" */
+    width: 230px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-top: 21px;
+}
+
+.socialPart img {
+    margin: 21px 15px 0px 15px;
+}
+
+.copyright {
+    /* Style for "© 2014 - K" */
+    width: 250px;
+    height: 16px;
+    margin: 86px auto 0 auto;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    align-content: center;
+
+/* Text style for "" */
+/* color: #00e1ff;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal; */
+}
+
+.year {
+    /* Text style for "© 2014 - ," */font-style: normal;letter-spacing: normal;line-height: normal;
+}
+.kasper {
+    /* Text style for "Kasper" */color: #00c7fc;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
